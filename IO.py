@@ -85,6 +85,7 @@ def permutation_test(test, data, group_1, group_2):
     """
 
     """
+    # TODO: render it probabilist over some threshold of samples (total indexes > 12 for 1k, > 15 for 10k )
     sh = (data.shape[0], 1)
     total_indexes = group_1 + group_2
     total = factorial(len(total_indexes)) / factorial(len(group_1)) / factorial(len(group_2))
@@ -139,5 +140,7 @@ if __name__ == "__main__":
     prima_test = prima_filter(data, groups)
 
     f_names, f_results = test_suite_1(data,prima_test, groups[0], groups[1]+groups[2], 0.1, 2, 0.05, 1.0)
+    # 2 in signal_strength corresponds to a probability of 4.2% of mistaking noise for information in our case.
+    # However, if the distribution isn't gaussian, it doesn't hold well.
 
     export_test_results(f_names, f_results)
