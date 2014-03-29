@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c185e25-9c6f-4809-ba3a-74f981788f3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IO.py" afterPath="$PROJECT_DIR$/IO.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hung_Ji_Hap_calling.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Mini_RNA_seq_filter.iml" afterPath="$PROJECT_DIR$/.idea/Mini_RNA_seq_filter.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Mini_RNA_seq_filter.iws" />
@@ -26,12 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IO.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IO.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="0" selection-start="5366" selection-end="5366" vertical-scroll-proportion="0.84974957" vertical-offset="1681" max-vertical-offset="2280">
+            <state line="28" column="0" selection-start="643" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
               <folding>
                 <element signature="e#20#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hung_Ji_Hap_calling.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hung_Ji_Hap_calling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="0" selection-start="3566" selection-end="3566" vertical-scroll-proportion="0.42404008" vertical-offset="1156" max-vertical-offset="1755">
+              <folding>
+                <element signature="e#20#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,6 +68,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/IO.py" />
+        <option value="$PROJECT_DIR$/Hung_Ji_Hap_calling.py" />
       </list>
     </option>
   </component>
@@ -90,7 +103,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -111,22 +123,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="last_opened_file_path" value="/n/local/stage/pythonbrew/pythonbrew-1.0/pythons/Python-2.7.2/bin/python" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.IO">
+  <component name="RunManager" selected="Python.Hung_Ji_Hap_calling">
     <configuration default="false" name="IO" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,6 +157,24 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Hung_Ji_Hap_calling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mini_RNA_seq_filter" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hung_Ji_Hap_calling.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -268,12 +299,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.IO" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Hung_Ji_Hap_calling" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.IO" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.Hung_Ji_Hap_calling" />
+        <item index="1" class="java.lang.String" itemvalue="Python.IO" />
       </list>
     </recent_temporary>
   </component>
@@ -309,14 +342,17 @@
       <created>1392943216389</created>
       <updated>1392943216389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TODOs and comments added">
+      <created>1392944267657</created>
+      <updated>1392944267657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1678" y="0" width="1684" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -331,6 +367,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -345,7 +382,8 @@
     </option>
     <MESSAGE value="eod commit" />
     <MESSAGE value="functionning and tested version" />
-    <option name="LAST_COMMIT_MESSAGE" value="functionning and tested version" />
+    <MESSAGE value="TODOs and comments added" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODOs and comments added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,6 +391,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="0" selection-start="5366" selection-end="5366" vertical-scroll-proportion="0.0" vertical-offset="1681" max-vertical-offset="2280">
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="0" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="960">
@@ -371,9 +418,7 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.20319635" vertical-offset="15962" max-vertical-offset="22080">
-          <folding />
-        </state>
+        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.20319635" vertical-offset="15962" max-vertical-offset="22080" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/Programming_common/im4sam/lib/python2.7/site-packages/numpy/lib/npyio.py">
@@ -385,9 +430,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="0" selection-start="5366" selection-end="5366" vertical-scroll-proportion="0.84974957" vertical-offset="1681" max-vertical-offset="2280">
+        <state line="28" column="0" selection-start="643" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
           <folding>
             <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hung_Ji_Hap_calling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="3566" selection-end="3566" vertical-scroll-proportion="0.42404008" vertical-offset="1156" max-vertical-offset="1755">
+          <folding>
+            <element signature="e#20#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
