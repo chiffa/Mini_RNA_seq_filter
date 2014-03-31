@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c185e25-9c6f-4809-ba3a-74f981788f3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hung_Ji_Hap_calling.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Mini_RNA_seq_filter.iml" afterPath="$PROJECT_DIR$/.idea/Mini_RNA_seq_filter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hung_Ji_Hap_calling.py" afterPath="$PROJECT_DIR$/Hung_Ji_Hap_calling.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Mini_RNA_seq_filter.iws" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="IO.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="643" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
+            <state line="48" column="46" selection-start="1405" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="2280">
               <folding>
                 <element signature="e#20#38#0" expanded="true" />
               </folding>
@@ -41,9 +40,9 @@
       <file leaf-file-name="Hung_Ji_Hap_calling.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hung_Ji_Hap_calling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="3566" selection-end="3566" vertical-scroll-proportion="0.42404008" vertical-offset="1156" max-vertical-offset="1755">
+            <state line="18" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.45075125" vertical-offset="0" max-vertical-offset="3015">
               <folding>
-                <element signature="e#20#42#0" expanded="true" />
+                <element signature="e#20#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,7 +173,9 @@
       <module name="Mini_RNA_seq_filter" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hung_Ji_Hap_calling.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -346,13 +347,18 @@
       <created>1392944267657</created>
       <updated>1392944267657</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="full variant calling co-localization and analysis added">
+      <created>1396066609119</created>
+      <updated>1396066609119</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1678" y="0" width="1684" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -367,7 +373,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -383,11 +388,12 @@
     <MESSAGE value="eod commit" />
     <MESSAGE value="functionning and tested version" />
     <MESSAGE value="TODOs and comments added" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODOs and comments added" />
+    <MESSAGE value="full variant calling co-localization and analysis added" />
+    <option name="LAST_COMMIT_MESSAGE" value="full variant calling co-localization and analysis added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -418,7 +424,9 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.20319635" vertical-offset="15962" max-vertical-offset="22080" />
+        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.20319635" vertical-offset="15962" max-vertical-offset="22080">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/Programming_common/im4sam/lib/python2.7/site-packages/numpy/lib/npyio.py">
@@ -428,9 +436,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///scratch/local_home/local/lib/python2.7/lib-tk/Tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="360" column="0" selection-start="12210" selection-end="12210" vertical-scroll-proportion="0.0" vertical-offset="5222" max-vertical-offset="57015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Programming_common/im4sam/lib/python2.7/site-packages/matplotlib/backends/backend_tkagg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="12105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Programming_common/im4sam/lib/python2.7/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="0" selection-start="5248" selection-end="5248" vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="46140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="643" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
+        <state line="48" column="46" selection-start="1405" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2280">
           <folding>
             <element signature="e#20#38#0" expanded="true" />
           </folding>
@@ -439,9 +468,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hung_Ji_Hap_calling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="3566" selection-end="3566" vertical-scroll-proportion="0.42404008" vertical-offset="1156" max-vertical-offset="1755">
+        <state line="18" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.45075125" vertical-offset="0" max-vertical-offset="3015">
           <folding>
-            <element signature="e#20#42#0" expanded="true" />
+            <element signature="e#20#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
